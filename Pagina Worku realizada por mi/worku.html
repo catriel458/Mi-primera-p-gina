@@ -1,0 +1,308 @@
+
+<!--  La página es perfectamente funcional para mi pantalla pero hay cosas a revisar -->
+
+<!-- Cosas a corregir 
+1) Hacer pagína mas responsiva en general (Algunos textos y imagenes no se adpatan bien).
+2) Hacerla totalmente responsiva para celulares (generar listado en el nav como hizo el profe) y hacer que las imagenes se adapten bien.
+3) Algunos detalles esteticos como intensidad de la negrita de la letra (no me dejaba cambiarlo).
+4) En la seccion 4 no pude posicionar los iconos igual que en el modelo porque se desarmaba la pagina. Tampoco me dejaba hacer uso
+del flex-wrap en esa sección porque se rompia todo.
+5) En la ultima seccion buscar como hacer que los elementos de la lista sean "desplegables" como en el modelo
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worku</title>
+    <link rel="stylesheet" href="worku.css">
+</head>
+<body>
+<header class="header">
+<div class = "contendor__header">
+<div class = "icono_header"> 
+<p class = "p_icono">Worku.</p>
+</div>
+
+<nav class = "nav">
+<ul class = "nav_list">
+<li>
+<a class = "botton" href="">Features</a>
+</li>
+<li>
+<a class = "botton" href="">Contact</a>
+</li>
+<li>
+<a class = "botton" href="">Help</a>
+</li>
+<li>
+<a class = "botton__login" href="">Login</a>
+</li>
+</ul>
+</nav>
+
+</div>
+
+</header>
+
+
+
+<section class="seccion1">
+
+<div class = contenedor_seccion1>
+    
+<!-- Revisar porque el titulo de la segunda secccion es responsivo y este uno (seguro me comí algo) -->
+
+<div class = "seccion1_titulo">
+
+<p> Manage And Track<br>
+    All Your Work <br>
+    Inside One App <br>
+
+</p>
+</div>
+
+<div class = "seccion1_contenido">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ex repellat fugit id deserunt, accusamus nesciunt quam magni molestiae.</p>
+
+</div>
+
+<div class = "seccion1_botton">
+
+<a class="botton_2" href=""> Learn More </a>  
+</div>
+<img src="hero1.png" alt = "chica" id="chica">
+
+</div>
+
+</section>
+
+<!-- Esta seccion se oculta y se usa solo cuando la pantalla se achica para no deformar la imagen -->
+
+<section class = "seccion2">
+</section>
+
+
+<section class="seccion3">
+
+<div class = "contenedorsec3">
+
+<div class ="hseccion3">
+
+<h2>Create Timelines,Track <br>
+ Progess , Assing WorK And <br>
+ Talk With Your Clients Inside <br>
+ One Web App!
+
+</h2>
+</div>
+
+<div class = "caja-video">
+
+<!-- Poner video de YT -->
+
+<iframe class = "videos3" width="853" height="480" src="https://www.youtube.com/embed/f81-WC3Jn6I" title="Gohan - "Todos aquellos que presumen de su fuerza..." 孫悟飯 Motivación" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+<div class = "caja-articulos">
+<article class = "article1">
+<img src = "work.png" alt = "icono" id = "iconos13">
+<h2 class = "h2part">Create Time Lines </h2>
+<p class = "part">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque minus, nesciunt accusamus animi iure amet eum velit nisi.</p>
+</article>
+
+<article class = "article2">
+
+<img src = "paper.png" alt = "icono" id = "iconos23">
+
+<h2>Track Progress</h2>
+
+<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque minus, nesciunt accusamus animi iure amet eum velit nisi.</p>
+
+</article>
+
+<article class = "article3">
+
+<img src = "progress.png" alt = "icono" id = "iconos33">
+
+<h2>Deliver Efficiency</h2>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque minus, nesciunt accusamus animi iure amet eum velit nisi. <p>
+
+</article>
+
+</div>
+
+<div class = "cajabuttons3">
+
+<a class = "buttons3" href="">I Want To Try</a>
+</div>
+</div>
+
+</section>
+
+<section class = seccion4>
+
+<div class = "contendors4">
+
+<div class = "chica__s4">
+
+<img src ="hero2.png" alt = "chica2" id = "chica2">
+
+</div>
+
+<div class = "contenido__S4">
+
+<h2 class = "s4h2">Grow Faster Than <br>
+    Your Compititors</h2>
+
+<p>Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet. .</p>
+
+<article class = "article1__s4">
+
+<h2>Manage All Your Work</h2>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem porro provident, velit animi ad eaque voluptatum est reprehenderit quia?</p>
+
+<div class = "img1s4"> 
+
+<img src = "dashboard.png" alt = "trabajo" id = "s4icono1" >
+
+</div>
+
+</article>
+
+<article class = "article2__s4">
+
+<h2>Scale It To The Moon</h2>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum exercitationem porro provident, velit animi ad eaque voluptatum est reprehenderit quia?</p>
+
+<div class = "img2s4"> 
+    
+<img src = "finance.png" alt = "trabajo" id = "s4icono2" >
+    
+</div>
+
+</article>
+
+</div>
+</div>
+
+</section>
+
+<section class = seccion5>
+
+<div class = "contendor_s5">
+
+<h2 class = "h2s5" >“This app is amazing Now i’m able to manage all my freelancing and agency work under one place. it make my life easy.”</h2>
+
+<div class = "contenidos5">
+
+<div class = "imgs5">
+
+<img src = "persona.JPG" alt = "persona feliz" id = "imgS5">
+
+</div>
+
+<div class = "textoS5">
+
+<h2>ASHUTOSH MEHTA</h2>
+
+<p>Charted Accountant</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class = "seccion6">
+
+<div class = "contenedor_s6">
+
+<div class = "primer_bloque">
+
+<h2 class = "s7h2">Signup for early <br>
+ access offer!</h2>
+
+<p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Nulla quis lorem ut libero malesuada feugiat. Quisque velit nisi, pretium ut lacinia in, elementum id enim</p>
+
+<!--  Hacemos el formulario -->
+
+<label class = "labels71" for="nombre">Ingresa tu nombre y apellido </label>
+<input 
+type = "text"
+id="nombre"
+/>
+
+<!-- Se puede cambiar el tipo de letra y el tamaño del placeholder? -->
+
+<label class = "labels72" for="email">Ingresa tu email </label>
+<input 
+type = "email"
+placeholder="ejemplo@gmail.com" 
+id="email"
+/>
+
+<div class = "caja-b7">
+
+<a class="bottonS6" href="" >Submit</a>
+
+</div>  
+
+</div>  
+
+<div class = "segundo_bloque">
+
+<div class = "imgs6">
+
+<img src = "hero3.png" alt = "chica sentada" id = "imagenS6">
+
+</div>  
+
+</div>
+
+</div>
+
+</section>
+
+<section class ="S7">
+
+<div class = "texts7">
+
+<h2>FAQ´s</h2> 
+
+</div>
+
+<div class = "listaS7">
+
+<ul>
+    <li class = "L1">How much price is for one year subscrption?</li>
+    <li class = "L2"> Can I add more than one team members?</li>
+    <li class = "L3"> Can I manage my payments?</li>
+    <li class = "L4"> Can I integrate payment gateways to take payments?</li>
+    <li class = "L5"> Is my data safe in this app?</li>
+    
+</ul>
+
+</div>
+
+
+
+</section>
+
+<footer class = "footer">
+    <p class = "p1footer">support@worku.com</p>
+    <p class = "p2footer">© Copyright Worku. All Rights Reserved</p> 
+
+</footer>  
+</body>
+</html>

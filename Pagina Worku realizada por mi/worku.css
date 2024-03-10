@@ -1,0 +1,588 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    --blue: #140d2d;
+    --yellow: #e0ff00;
+    --black: #000;
+    --white: #fff;
+    --light-gray: #F2F0F0;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+
+@font-face {
+    font-family: 'Krona One';
+    src: url('C:/Users/Catriel/Desktop/Desarollo web Full Stack/Proyecto Mitad de Curso/Worku/assets/fonts/KronaOne.ttf');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+
+  
+  .header{
+  background-color:var(--blue);
+  height: 60px;
+  
+  }
+
+  .contendor__header {
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center ;
+  
+  }
+
+  .nav_list{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+
+  }
+
+  .p_icono{
+ color: var(--white);
+ font-family: 'Krona One';
+  }
+
+  
+
+.botton {
+  color: var(--white);
+  font-family: 'Krona One';
+  text-decoration: none;
+  /* font-weight: 400; Parece no funcionar no me permite cambiar el grosor de la letra*/
+}
+
+.botton__login{
+color: var(--blue);
+font-family: 'Krona One';
+text-decoration: none;
+background-color: var(--white);
+padding: 5px;
+border-radius: 10px;
+margin-right: 15px;
+}
+
+.seccion1 {
+height: 90vh;
+background-color: var(--blue);
+color: var(--white);
+font-family: 'Krona One';
+}
+
+
+
+.contenedor_seccion1 {
+height: inherit;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+flex-wrap: wrap;
+align-content: flex-start;
+}
+
+.seccion1_titulo {
+font-size: 1.5em
+}
+
+
+#chica {
+display: block;
+position: absolute;
+width: 50%;
+left: 50%;
+object-fit: cover;
+
+}
+
+.seccion1_titulo {
+font-size: 3em;
+width: 90vh;
+}
+
+.seccion1_contenido {
+font-size: 1em;
+width: 60vh;
+}
+
+.seccion1_botton {
+padding: 10px;
+background-color: var(--yellow);
+width: 150px;
+border-radius: 10%;
+}
+
+.botton_2 {
+  text-decoration: none;
+}
+
+.seccion2 {
+height: 70vh;
+background-color: var(--white);
+display: none
+}
+
+.seccion3 {
+  height: 200vh;
+  background-color: var(--white);
+  font-family: 'Krona One'
+  }
+
+.contenedorsec3{
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
+  align-items: center;
+
+}
+
+.hseccion3 {
+  color: var(--black);
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.caja-articulos {
+display: flex;
+flex-direction: row;
+color: var(--white);
+gap: 20px;
+flex-wrap: wrap;
+align-content: center;
+margin-top: 50px;
+margin-bottom: 50px;
+
+
+}
+
+.article1{
+background-color: var(--black);
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+font-size: 0.9em;
+text-align: center;
+}
+
+.article2{
+background-color: var(--black);
+width: 300px;
+height: 300px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+font-size: 0.9em;
+text-align: center;
+  }
+
+  .article3{
+    background-color: var(--light-gray);
+    width: 300px;
+    height: 300px;
+    color: var(--black);
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   font-size: 0.9em;
+   text-align: center
+    }
+
+#iconos13 {
+height: 50px;
+width: 50px;
+object-fit: cover;
+position: relative;
+right: 100px;
+border: 2px yellow solid;
+border-radius: 100%;
+}
+
+
+#iconos23 {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    position: relative;
+    right: 100px;
+    border: 2px white solid; 
+    border-radius: 100%;
+  }
+
+  #iconos33 {
+    height: 50px;
+    width: 50px;
+    width: 50px;
+    object-fit: cover;
+    position: relative;
+    right: 100px;
+    }
+
+    .cajabuttons3 {
+      padding: 10px;
+      background-color: var(--yellow);
+      width: 200px;
+      border-radius: 10%;
+      text-align: center;
+    }
+
+    .buttons3 {
+    text-decoration: none;
+    }
+
+    /* Hacer video responsivo (sacado de internet) */
+
+    .caja-video{
+      height:0px;
+      width:100%;
+      max-width:560px; /* Así establecemos el ancho máximo (si lo queremos) */
+      padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+      position:relative; 
+    }
+
+    .videos3{
+      position:absolute;
+      height:100%;
+      width:100%;
+      top:0px;
+      left:0px;
+    }
+
+/*  Empezamos con la seccion 4 */
+
+.seccion4 {
+  height: 120vh;
+  background-color: var(--white);
+  font-family: 'Krona One';
+  margin-top: 5%;
+  }
+
+  .contendors4 {
+  height: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 90px;
+  align-items: center;
+
+
+  /* Si pongo el flex wrap se me rompe toda la pagina consultar */
+  
+  }
+
+ .chica__s4{
+ height: 50%;
+ width: 50%;
+ background-color: var(--black);
+ border-radius: 5%;
+ position: relative;
+}
+ 
+#chica2 {
+position: absolute;
+object-fit: cover;
+height: 130%;
+width: 100%;
+bottom: 5%;
+left: 18%;
+
+
+}
+
+.s4h2 {
+font-size: 2em;
+}
+
+.contenido__S4 {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items:flex-start;
+gap: 20px;
+flex-wrap: wrap;
+align-content: flex-start;
+
+}
+
+.article1__s4 {
+font-size: 0.9em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center;
+gap: 10px;
+
+}
+
+.article2__s4 {
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+
+  }
+
+  .img1s4{
+    height: 50px;
+    width: 50px;
+    background-color: var(--black);
+   
+    }
+   
+    .img2s4{
+     height: 50px;
+     width: 50px;
+     background-color: var(--black);
+     }
+
+
+     .seccion5 {
+      height: 80vh;
+      background-color: var(--blue);
+      font-family: 'Krona One';
+      margin-top: 5%;
+      color: var(--white);
+      }
+
+    .contendor_s5 {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+     
+    .h2s5 {
+    font-size: 3em;
+    }
+      
+    .contenidos5 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    } 
+
+     .imgs5 {
+    width: 5%;
+    height: 5%;
+     }
+
+     .seccion6 {
+      height: 80vh;
+      background-color: var(--white);
+      font-family: 'Krona One';
+      margin-top: 5%;
+     }
+
+
+ 
+     .contenedor_s6 {
+      height: inherit;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+     }
+
+     .primer_bloque {
+     width: 50%;
+     height: 80%;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     gap: 20px;
+     }
+
+     .s7h2 {
+     font-size: 2.5em
+     }
+
+     .labels71 {
+      background-color: var(--blue);
+      color: var(--white);
+      width: 300px;
+      height: 50px;
+      text-align: center;
+      padding: 5px;
+      border-radius: 10%;
+      }
+
+     .labels72 {
+     background-color: var(--blue);
+     color: var(--white);
+     width: 300px;
+     height: 50px;
+     text-align: center;
+     padding: 15px;
+     border-radius: 10%;
+     }
+
+     #nombre {
+    border: 3px solid var(--blue);
+    width: inherit;
+     }
+
+     #email {
+      border: 3px solid var(--blue);
+      width: inherit;
+       }
+       
+    
+
+
+     .segundo_bloque {
+      width: 50%;
+      height: 80%;
+
+     }
+
+     .imgs6 {
+     width: 100%;
+     height: inherit;
+     background-color: var(--black);
+     border-radius: 5%;
+     position: relative;
+     }
+
+  #imagenS6 {
+  object-fit: cover;
+  position: absolute;
+  left: 5%;
+  top: -5%
+  }
+
+  .caja-b7 {
+    padding: 10px;
+    background-color: var(--yellow);
+    width: 200px;
+    border-radius: 10%;
+    text-align: center;
+  }
+
+  .bottonS6 {
+  text-decoration: none;
+  font-size: 1em;
+  }
+
+
+.S7 {
+margin-top: 15%;
+height: 70vh;
+font-family:'Krona One' ;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.texts7 {
+font-size: 2em;
+}
+  
+.L1 {
+list-style: none;
+margin: 20px;
+border: solid 2px var(--blue);
+text-align: center;
+background-color: var(--light-gray);
+}
+
+.L2 {
+  list-style: none;
+  margin: 20px;
+  border: solid 2px var(--blue);
+  text-align: center;
+  background-color: var(--light-gray);
+  }
+
+  .L3 {
+    list-style: none;
+    margin: 20px;
+    border: solid 2px var(--blue);
+    text-align: center;
+    background-color: var(--light-gray);
+    }
+    
+    .L4 {
+      list-style: none;
+      margin: 20px;
+      border: solid 2px var(--blue);
+      text-align: center;
+      background-color: var(--light-gray);
+      }
+  
+      .L5 {
+        list-style: none;
+        margin: 20px;
+        border: solid 2px var(--blue);
+        text-align: center;
+        background-color: var(--light-gray);
+        }
+
+        .footer {
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--black);
+        font-family:'Krona One';
+        color: var(--white);
+        align-items: center;
+        font-size: 0.7em;
+        }
+
+      .p1footer {
+      padding-left: 40px;
+      }
+
+      .p2footer {
+        padding-right: 40px;
+        }
+
+  /*  Revisar los MQ para que la pagina sea totalmente responsiva, funciona perfecta en mi pantalla pero en otros tamaños se rompen
+  ciertas partes (no todo solo algunas secciones, especificamente las imagenes  y sus contendores) */
+
+@media (max-width: 900px) {
+  #chica {position: absolute;
+  margin-top:10%;
+  top: 80%;
+  width: 60%;
+  left: -5%;
+}
+.seccion2{
+display: flex;
+visibility: visible;
+background-color: var(--blue);
+}
+}
+
+@media (max-width: 637px) {
+.seccion4{
+margin-top: 80%;
+
+}
+}
+
+ @media (max-width: 485px) {
+  .seccion4{
+  margin-top: 120%;
+
+  }
+  } 
